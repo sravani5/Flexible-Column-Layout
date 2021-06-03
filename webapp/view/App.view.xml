@@ -1,0 +1,14 @@
+<mvc:View controllerName="flexlayoutZFlexLayout.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.f" xmlns:m="sap.m">
+	<!--<App>-->
+	<!--	<pages>-->
+	<!--		<Page title="{i18n>title}">-->
+	<!--			<content></content>-->
+	<!--		</Page>-->
+	<!--	</pages>-->
+	<!--</App>-->
+		<m:App id="app">
+		<!--<SplitApp id="idAppControl" />-->
+		<FlexibleColumnLayout id="idAppControl" layout="{appView>/layout}"></FlexibleColumnLayout>
+	</m:App>
+</mvc:View>
